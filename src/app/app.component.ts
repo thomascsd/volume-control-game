@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   volumeUp() {
     this.pointer.stop();
     this.pointer.attr({
-      y: '-=5'
+      y: '-=10'
     });
     this.volumeDown();
   }
